@@ -46,7 +46,7 @@ from sklearn.ensemble import RandomForestClassifier
 # Initialize a Random Forest classifier with 100 trees
 forest = RandomForestClassifier(n_estimators = 100) 
 
-# Fit the Naive Bayes Model to the training set, using the bag of words as 
+# Fit the Random Forrest to the training set, using the bag of words as 
 # features and the sentiment labels.
 forest = forest.fit( train_data_features, train["sentiment"] )
 
